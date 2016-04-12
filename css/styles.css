@@ -7,6 +7,12 @@ body {
 }
 	
 
+a,
+a:visited {
+	color: white;
+}	
+
+
 p {
   color: white;
   font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
@@ -17,23 +23,23 @@ p {
 .body {
 	text-align: center;
 	display: block;
-	margin-top: 10%;
+	margin-top: 5%;
 }
 
 
 p.name {
   color: white;
-  font-weight: 100;
- 	font-size: 2.5em;
-	margin-top: 33%;
+  font-weight: 200;
+ 	font-size: 2em;
+	margin-top: 15%;
 	margin: 0;
 	padding: 0;
 }
 
 p.date {
   color: white;
-  font-weight: 100;
- 	font-size: 2em;
+  font-weight: 200;
+ 	font-size: 1.5em;
 	margin: 1em 0 .5em;
 	padding: 0;
 }
@@ -41,7 +47,7 @@ p.date {
 p.venue {
   color: white;
   font-weight: 100;
- 	font-size: 1.5em;
+ 	font-size: 1.25em;
 	margin: 0 0 1em;
 	padding: 0;
 }
@@ -56,7 +62,7 @@ p.updates {
 
  
 #logo {
-	width: 260px;
+	width: 200px;
 	height: auto;
 	margin: 0 auto;
 	padding: 1em;
@@ -92,3 +98,48 @@ p.updates {
 	font: 11px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
 }
 
+
+
+
+#mc_embed_signup {
+	width: 400px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 1em;
+	border: 1px solid maroon;
+	background-color: maroon;
+}
+
+#mc_embed_signup h2 {
+	color: white;
+	font-size: 1.25em;
+}
+
+#mc_embed_signup label {
+	color: white;
+}
+
+#mc_embed_signup .indicates-required {
+	color: silver;
+	padding: .25em;
+	clear: both;
+}
+
+#mc_embed_signup .mc-field-group {
+	padding: .25em;
+}
+
+#mc_embed_signup input {
+	width: 70%;
+}
+
+#mc-embedded-subscribe {
+	background-color: #ce8989;
+	border-style: none;
+	color: white;
+	text-align: center;
+	font-weight: bold;
+	padding: .5em;
+	font-size: 1.25em;
+	margin-top: .5em;
+}
