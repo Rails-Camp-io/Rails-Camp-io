@@ -1,0 +1,14 @@
+/* Rails Camp */
+
+.header-notice {
+	margin: 0;
+	padding: .25rem;
+	background-color: #cb717b;
+	color: white;
+	font-size: .8rem;
+}
+	
+.header-notice p {
+	font-size: .8rem;
+	text-align: center;
+}	
