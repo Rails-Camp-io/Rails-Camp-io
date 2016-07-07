@@ -12,3 +12,32 @@
 	font-size: .8rem;
 	text-align: center;
 }	
+
+.session {
+	clear: both;
+	display: block;
+}
+
+.session .scheduling .slot {
+	display: block!important;
+}
+
+.scheduling .event {
+	display: none;
+}
+
+.sesssion.logistical img {
+	display: none!important;
+}
+
+.summary,
+.summary p {
+	text-align: left!important;
+	padding: 0!important;
+	margin: 0!important;
+	width: 100%!important;
+}
+
+.session .subtitle {
+	display: none;
+}
